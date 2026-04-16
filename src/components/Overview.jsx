@@ -4,8 +4,12 @@ const cards = [
     body: 'Aplica bônus de proficiência, expertise e slots como se um escriba arcano acompanhasse cada nível.',
   },
   {
-    title: 'Grimório completo',
-    body: 'Classes, subclasses e magias do PHB 2014 catalogadas como páginas iluminadas.',
+    title: 'Três livros, um grimório',
+    body: 'Subclasses, magias e conteúdo completo do Player’s Handbook, Tasha’s Cauldron of Everything e Xanathar’s Guide to Everything.',
+  },
+  {
+    title: 'Regras opcionais (Tasha’s)',
+    body: 'Suporte a Custom Lineage, habilidades opcionais de classe e feat de origem — tudo dentro do fluxo de criação guiada.',
   },
   {
     title: 'Mesa preparada',
@@ -20,9 +24,13 @@ export default function Overview() {
       <div className="max-w-3xl mb-10 relative z-10">
         <p className="uppercase tracking-[0.25rem] text-xs text-accent mb-2">Visão Geral</p>
         <h2 className="font-display text-[clamp(2rem,4vw,3rem)] mb-3">Por que usar o DnD Sheet Companion?</h2>
-        <p className="text-muted">Uma forja digital para montar fichas vivas, interativas e dignas dos salões de Waterdeep.</p>
+        <p className="text-muted">
+          Uma forja digital que cobre o conteúdo de <span className="text-parchment">PHB</span>,{' '}
+          <span className="text-parchment">Tasha’s Cauldron of Everything</span> e{' '}
+          <span className="text-parchment">Xanathar’s Guide to Everything</span> para montar fichas vivas e dignas dos salões de Waterdeep.
+        </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
         {cards.map((c) => (
           <article
             key={c.title}

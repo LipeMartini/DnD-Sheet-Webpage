@@ -11,7 +11,7 @@ export default function Download() {
           <h3 className="font-display text-lg">Instalador Windows</h3>
           <p className="text-muted text-sm">Setup oficial (.exe) com atalho, desinstalação e assets embutidos.</p>
           <a
-            href="/DnD_Character_Sheet_Setup.exe"
+            href="/DnD_Companion_Setup.exe"
             download
             className="rounded-full px-7 py-3.5 font-semibold text-[#fff3e0] transition-transform hover:-translate-y-0.5"
             style={{
