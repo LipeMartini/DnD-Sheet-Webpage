@@ -11,7 +11,7 @@ export default function Download() {
           <h3 className="font-display text-lg">Instalador Windows</h3>
           <p className="text-muted text-sm">Setup oficial (.exe) com atalho, desinstalação e assets embutidos.</p>
           <a
-            href="/DnD_Companion_Setup.exe"
+            href="https://github.com/LipeMartini/DnD-5e-Companion/releases/download/v1.0.0/DnD_Companion_Setup.exe"
             download
             className="rounded-full px-7 py-3.5 font-semibold text-[#fff3e0] transition-transform hover:-translate-y-0.5"
             style={{
@@ -27,7 +27,7 @@ export default function Download() {
           <h3 className="font-display text-lg">Pacote ZIP / Código-fonte</h3>
           <p className="text-muted text-sm">Versão completa no GitHub para quem prefere clonar ou compilar.</p>
           <a
-            href="https://github.com/LipeMartini/DnD-5e-Character-Sheet"
+            href="https://github.com/LipeMartini/DnD-5e-Companion"
             target="_blank"
             rel="noreferrer noopener"
             className="rounded-full px-7 py-3.5 font-semibold text-parchment border border-accent/40 bg-parchment/[0.08] transition-transform hover:-translate-y-0.5"

@@ -42,7 +42,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a
-            href="/DnD_Companion_Setup.exe"
+            href="https://github.com/LipeMartini/DnD-5e-Companion/releases/download/v1.0.0/DnD_Companion_Setup.exe"
             download
             className="rounded-full px-7 py-3.5 font-semibold text-[#fff3e0] transition-transform hover:-translate-y-0.5"
             style={{
